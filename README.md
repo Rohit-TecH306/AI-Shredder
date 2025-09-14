@@ -33,10 +33,10 @@ AI_Shredder_and_Redaction_Tool/
 
 ---
 
-bash
-git clone https://github.com/prachishende007/AI_Shredder_and_Redaction_Tool.git
-cd AI_Shredder_and_Redaction_Tool
-pip install -r requirements.txt.
+bash<br>
+git clone https://github.com/prachishende007/AI_Shredder_and_Redaction_Tool.git<br>
+cd AI_Shredder_and_Redaction_Tool<br>
+pip install -r requirements.txt.<br>
 
 #🛣 Roadmap
 
