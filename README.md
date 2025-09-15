@@ -1,4 +1,4 @@
-# AI Shredder & Redaction Tool
+# 🛡️AI Shredder & Redaction Tool
 
 ## Overview
 The **AI Shredder & Redaction Tool** is an AI-powered application designed to automatically detect, redact, and anonymize sensitive information from documents and images. It provides a secure and efficient solution for privacy compliance, sensitive data protection, and document management.
