@@ -55,15 +55,15 @@ pip install -r requirements.txt
 
 ## Project Structure
   AI_Shredder_and_Redaction_Tool/<br>
-  │
-  ├── input/               # Input documents and images<br>
-  ├── output/              # Redacted documents and images<br>
-  ├── models/              # Pretrained AI models<br>
-  ├── scripts/             # Helper scripts and utilities<br>
-  ├── main.py              # Entry point of the tool<br>
-  ├── requirements.txt     # Required Python libraries<br>
-  ├── README.md            # Project documentation<br>
-  └── config.json          # Configuration for sensitive info detection<br>
+  │<br>
+  ├── input/              <br>
+  ├── output/             <br>
+  ├── models/             <br>
+  ├── scripts/            <br>
+  ├── main.py             <br>
+  ├── requirements.txt    <br>
+  ├── README.md           <br>
+  └── config.json         <br>
 
 ---
 
