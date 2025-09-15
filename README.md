@@ -1,20 +1,95 @@
-# 🛡️ AI Shredder & Redaction Tool
+# AI Shredder & Redaction Tool
 
-An AI-powered tool for **detecting, scoring, and redacting sensitive information** from text.  
-It identifies sensitive entities (like names, SSNs, and emails), applies **confidence scoring**, and lets you configure thresholds for automatic shredding or manual review.
+## Overview
+The **AI Shredder & Redaction Tool** is an AI-powered application designed to automatically detect, redact, and anonymize sensitive information from documents and images. It provides a secure and efficient solution for privacy compliance, sensitive data protection, and document management.
 
----
-
-## ✨ Features
-
-- 🔍 **Entity Detection** – Identify PII, PHI, and other sensitive data.  
-- 📝 **Flexible Redaction** – Mask, remove, or hash detected entities.  
-- 📊 **Confidence Scoring** – Each detection comes with a confidence score (0–1).  
-- ⚡ **Configurable Thresholds** – Decide whether to redact automatically or flag for review.  
-- 🧪 **Training & Evaluation** – Train models, evaluate performance, and run inference.  
-- ✅ **Testing Suite** – Includes unit and integration tests.  
+This tool is particularly useful for organizations handling confidential data such as legal documents, financial records, medical reports, and scanned images.  
 
 ---
 
-## 📂 Repository Structure
+## Features
+- **Automatic Redaction**: Detects sensitive text and images to redact using AI-based models.
+- **Supports Multiple Formats**: Works on PDFs, images (JPEG, PNG), and scanned documents.
+- **Customizable Rules**: Users can define which types of information to redact (e.g., names, addresses, IDs).
+- **Batch Processing**: Redact multiple documents/images at once.
+- **Preview Before Redaction**: Allows users to review detected sensitive areas before final processing.
 
+---
+
+## Technology Stack
+- **Python 3.11+**
+- **Libraries Used**:
+  - `PyTorch`: For AI model development.
+  - `transformers`: NLP model handling for sensitive text detection.
+  - `PIL (Pillow)`: Image processing.
+  - `opencv-python`: Image and PDF processing.
+  - `json`: Storing and exporting metadata.
+  - `dataclasses`: Handling structured data for detected information.
+- **Machine Learning Models**:
+  - Pretrained OCR models for text extraction.
+  - Custom-trained models for detecting sensitive data patterns.
+
+---
+
+## Installation
+
+**1. Clone the repository:**
+git clone https://github.com/yourusername/ai-shredder-redactor.git
+cd ai-shredder-redactor
+
+
+**2. Create a virtual environment:**
+python -m venv venv
+
+
+**3.Activate the virtual environment:**
+-Windows:
+  venv\Scripts\activate
+-Linux/MacOS:
+  source venv/bin/activate
+
+**4.Install dependencies:**
+pip install -r requirements.txt
+
+---
+
+## Project Structure
+  AI_Shredder_and_Redaction_Tool/
+  │
+  ├── input/               # Input documents and images
+  ├── output/              # Redacted documents and images
+  ├── models/              # Pretrained AI models
+  ├── scripts/             # Helper scripts and utilities
+  ├── main.py              # Entry point of the tool
+  ├── requirements.txt     # Required Python libraries
+  ├── README.md            # Project documentation
+  └── config.json          # Configuration for sensitive info detection
+
+---
+
+## Results
+
+- Successfully redacts sensitive information like names, phone numbers, emails, and SSNs.
+- Maintains original document structure and readability.
+- Batch processing reduces manual effort significantly.
+- Preview mode ensures accurate redaction before saving final files.
+
+---
+
+## Future Improvements
+
+- Integration with web and desktop GUI applications.
+- Support for more languages in text detection.
+- AI-based image obfuscation techniques for better security.
+- Cloud-based deployment for large-scale document management.
+
+---
+
+## Contact
+
+**Project Lead: Prachi Shende**
+Email: prachishende182@gmail.com
+
+GitHub: https://github.com/prachishende007
+
+---
