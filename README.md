@@ -34,7 +34,7 @@ This tool is particularly useful for organizations handling confidential data su
 ## Installation
 
 **1. Clone the repository:**<br>
-git clone(https://github.com/prachishende007/AI_Shredder_and_Redaction_Tool).git<br>
+git clone https://github.com/prachishende007/AI_Shredder_and_Redaction_Tool.git<br>
 cd ai-shredder-redactor<br>
 
 
