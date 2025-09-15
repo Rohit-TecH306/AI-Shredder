@@ -33,37 +33,37 @@ This tool is particularly useful for organizations handling confidential data su
 
 ## Installation
 
-**1. Clone the repository:**
-git clone https://github.com/yourusername/ai-shredder-redactor.git
-cd ai-shredder-redactor
+**1. Clone the repository:**<br>
+git clone https://github.com/yourusername/ai-shredder-redactor.git<br>
+cd ai-shredder-redactor<br>
 
 
-**2. Create a virtual environment:**
+**2. Create a virtual environment:**<br>
 python -m venv venv
 
 
-**3.Activate the virtual environment:**
--Windows:
-  venv\Scripts\activate
--Linux/MacOS:
-  source venv/bin/activate
+**3.Activate the virtual environment:**<br>
+-Windows:<br>
+  venv\Scripts\activate<br>
+-Linux/MacOS:<br>
+  source venv/bin/activate<br>
 
-**4.Install dependencies:**
+**4.Install dependencies:**<br>
 pip install -r requirements.txt
 
 ---
 
 ## Project Structure
-  AI_Shredder_and_Redaction_Tool/
+  AI_Shredder_and_Redaction_Tool/<br>
   │
-  ├── input/               # Input documents and images
-  ├── output/              # Redacted documents and images
-  ├── models/              # Pretrained AI models
-  ├── scripts/             # Helper scripts and utilities
-  ├── main.py              # Entry point of the tool
-  ├── requirements.txt     # Required Python libraries
-  ├── README.md            # Project documentation
-  └── config.json          # Configuration for sensitive info detection
+  ├── input/               # Input documents and images<br>
+  ├── output/              # Redacted documents and images<br>
+  ├── models/              # Pretrained AI models<br>
+  ├── scripts/             # Helper scripts and utilities<br>
+  ├── main.py              # Entry point of the tool<br>
+  ├── requirements.txt     # Required Python libraries<br>
+  ├── README.md            # Project documentation<br>
+  └── config.json          # Configuration for sensitive info detection<br>
 
 ---
 
