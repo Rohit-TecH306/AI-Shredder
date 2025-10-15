@@ -85,11 +85,3 @@ pip install -r requirements.txt
 
 ---
 
-## Contact
-
-**Project Lead: Prachi Shende**<br>
-Email: prachishende182@gmail.com
-
-GitHub: https://github.com/prachishende007
-
----
